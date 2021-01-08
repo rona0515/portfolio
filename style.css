@@ -149,7 +149,6 @@ body {
     .container2 {
         /*        background-color: chartreuse;*/
         border: 2px solid black;
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
         grid-gap: 10px 10px;
@@ -165,31 +164,77 @@ body {
         opacity: 85%;
         padding: 5vw;
         border-radius: 2vw;
+        margin: 2vw;
+        border: 0.3vw solid #292929;
 
     }
 
     #grid_item1 {
         grid-row: 1/4;
         background-image: url(galleri/basic_web.png);
+        opacity: 0.5;
+        filter: blur(3px);
+        background-color: #FFFAF3;
+        background-blend-mode: overlay;
+
+    }
+
+    #grid_item1:hover {
+    background-color: unset;
+    opacity: unset;
+        filter: unset;
     }
 
     #grid_item2 {
         grid-row: 1/3;
+        opacity: 0.5;
+        filter: blur(3px);
         background-image: url(galleri/ux.png);
+        background-color: #FFFAF3;
+        background-blend-mode: overlay;
     }
+
+    #grid_item2:hover {
+        background-color: unset;
+        opacity: unset;
+        filter: unset;
+    }
+
 
     #grid_item3 {
         grid-column: 1/2;
+        opacity: 0.5;
+
         grid-row: 4/7;
         background-image: url(galleri/animation.png);
+        filter: blur(3px);
+        background-color: #FFFAF3;
+        background-blend-mode: overlay;
+    }
+
+    #grid_item3:hover {
+        background-color: unset;
+        opacity: unset;
+        filter: unset;
     }
 
     #grid_item4 {
         grid-column: 2/4;
         grid-row: 4/7;
+        opacity: 0.5;
         background-image: url(galleri/content.png);
+        filter: blur(3px);
+        background-color: #FFFAF3;
         background-position: top;
+        background-blend-mode: overlay;
     }
+
+    #grid_item4:hover {
+        background-color: unset;
+        opacity: unset;
+        filter: unset;
+    }
+
 
 
 
