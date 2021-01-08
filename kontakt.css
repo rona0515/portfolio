@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3vw
+}
+
+h3 {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+p {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+body {
+    margin: 0;
+    background-color: #FFFAF3;
+}
+
+/*-----------------Desktop--------------------------*/
+
+@media only screen and (min-width: 600px) {
+
+    /*-----------------Nav Bar--------------------------*/
+
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.1vw;
+        width: 100%;
+        z-index: 1;
+
+    }
+
+    .navbar a {
+        float: left;
+        text-align: center;
+        color: #614B4B;
+
+        text-decoration: none;
+        padding: 0.5vw 3.5vw;
+        margin: 1.1vw;
+        align-content: space-around;
+    }
+
+    .navbar a:hover {
+        background-color: #503B3C;
+        color: #FFFAF3;
+        opacity: 85%;
+        border-radius: 3vw;
+
+    }
+
+    .navbar a:active {
+        background-color: #12664F;
+        color: #FFFAF3;
+    }
+
+
+    /*-----------------Kontakt--------------------------*/
+
+
+    /*-----------------Section 1--------------------------*/
+
+    #content_section_wrapper1 {
+        border: 2px solid red;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .content_splash {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vw;
+        width: 90%;
+        height: 45vw;
+        overflow: hidden;
+        opacity: 0.4;
+        object-fit: cover;
+
+    }
+
+    .content_text {
+        position: absolute;
+        text-align: center;
+        top: 27vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        background-color: #FFFAF3;
+        padding: 10px 20px;
+        border-radius: 2vw;
+    }
+
+    /*-----------------Section 2--------------------------*/
+
+    #kontakt_section_wrapper1 {
+        font-family: 'Poppins', sans-serif;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        padding: 5vw 5vw;
+        grid-gap: 1vw;
+        background-color: #FFFAF3;
+    }
+
+    .form {
+        background: #8AAA83;
+        grid-row: 1/3;
+        font-size: 0.9vw;
+        padding: 1vw;
+        border-radius: 1vw;
+
+    }
+
+    label,
+    input,
+    textarea,
+    select,
+    submit {
+        color: #3c3c3c;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1vw;
+        display: block;
+        margin-top: 0.4vw;
+
+    }
+
+    .form input {
+        width: 80%;
+
+    }
+
+    #first-name,
+    #last-name,
+    #email,
+    #tel,
+    #besked {
+        background-color: #FFFAF3;
+        border: none;
+        padding: 0.5vw
+    }
+
+    #besked {
+        resize: none;
+    }
+
+    #submit {
+        text-align: center;
+        color: #3c3c3c;
+        background-color: #ffffff;
+        border: none;
+    }
+
+    .socialmedia {
+        background: #5AA977;
+        text-align: center;
+        grid-row: 1/3;
+        padding: 1vw;
+        border-radius: 1vw;
+
+    }
+
+    .socialmedia .facebook {
+        background: rgb(68, 97, 255);
+        background: linear-gradient(90deg, rgba(68, 97, 255, 1) 0%, rgba(106, 129, 255, 1) 50%, rgba(68, 97, 255, 1) 100%);
+        color: #FFFAF3;
+        text-align: center;
+    }
+
+    .socialmedia .instagram {
+        background: rgb(131, 58, 180);
+        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+        text-align: center;
+        color: #3c3c3c;
+    }
+
+    #facebook{
+        width: 5vw;
+    }
+    #instagram{
+        5vw;
+    }
+
+
+    .socialmedia p {
+        text-align: left;
+        padding: 1vw;
+        font-size: 0.9vw;
+        font-weight: 400;
+    }
+
+
+
+
+    /*-----------------Footer--------------------------*/
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 0;
+        justify-content: space-around;
+        text-align: center;
+        background: rgb(255, 250, 243);
+        background: linear-gradient(0deg, rgba(255, 250, 243, 1) 62%, rgba(156, 197, 161, 0) 100%);
+        padding: 40px 0px;
+        color: #4461ff;
+    }
+}

@@ -85,6 +85,7 @@ body {
         justify-content: center;
         text-align: center;
         border: 2px solid red;
+        background-attachment: fixed;
     }
 
     .video_container {
