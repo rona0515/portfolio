@@ -38,13 +38,23 @@ body {
     margin: 0;
     background-color: #FFFAF3;
 }
+/*-----------------MobileDesign --------------------------*/
+@media (max-width: 600px) {
+
+    .container1 {
+        text-align: center;
+        position: absolute;
+        top: 27vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+
+}
 
 /*-----------------Desktop--------------------------*/
 
 @media only screen and (min-width: 600px) {
-
     /*-----------------Nav Bar--------------------------*/
-
     .navbar {
         overflow: hidden;
         position: fixed;
@@ -173,15 +183,15 @@ body {
         grid-row: 1/4;
         background-image: url(galleri/basic_web.png);
         opacity: 0.5;
-        filter: blur(3px);
         background-color: #FFFAF3;
         background-blend-mode: overlay;
 
     }
 
+
     #grid_item1:hover {
-    background-color: unset;
-    opacity: unset;
+        background-color: unset;
+        opacity: unset;
         filter: unset;
     }
 
@@ -236,8 +246,6 @@ body {
     }
 
 
-
-
     /*-----------------Section 3--------------------------*/
     #section_wrapper3 {
         /*        background-color: blanchedalmond;*/
@@ -258,17 +266,6 @@ body {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
     /*-----------------About--------------------------*/
     #about_section_wrapper1 {
         border: 2px solid black;
@@ -280,9 +277,11 @@ body {
         font-family: 'Poppins', sans-serif;
     }
 
-    .grid_about1 {}
+    .grid_about1 {
+    }
 
-    .grid_about2 {}
+    .grid_about2 {
+    }
 
     /*-----------------Mit Portfolio--------------------------*/
     #portfolio_section_wrapper1 {
@@ -316,17 +315,13 @@ body {
     }
 
 
-
-
-
     /*-----------------Basic Web--------------------------*/
-
     #basicweb_section_wrapper1 {
         border: 2px solid black;
         font-family: 'Poppins', sans-serif;
     }
 
-    .grid_basicweb1{
+    .grid_basicweb1 {
         position: relative;
         display: block;
         margin-left: auto;
@@ -339,7 +334,7 @@ body {
         object-fit: cover;
     }
 
-    .grid_basicweb2{
+    .grid_basicweb2 {
         position: absolute;
         text-align: center;
         top: 27vw;
@@ -365,3 +360,6 @@ body {
         color: #292929;
     }
 }
+
+
+
