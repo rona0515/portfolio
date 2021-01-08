@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3vw
+}
+
+h3 {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+p {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+body {
+    margin: 0;
+    background-color: #FFFAF3;
+}
+
+/*-----------------Desktop--------------------------*/
+
+@media only screen and (min-width: 600px) {
+
+    /*-----------------Nav Bar--------------------------*/
+
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.1vw;
+        width: 100%;
+        z-index: 1;
+
+    }
+
+    .navbar a {
+        float: left;
+        text-align: center;
+        color: #FFFAF3;
+        text-decoration: none;
+        padding: 0.5vw 3.5vw;
+        margin: 1.1vw;
+        align-content: space-around;
+    }
+
+    .navbar a:hover {
+        background-color: #FFFAF3;
+        color: #292929;
+        opacity: 85%;
+        border-radius: 3vw;
+
+    }
+
+    .navbar a:active {
+        background-color: #12664F;
+        color: #FFFAF3;
+    }
+
+    /*-----------------About--------------------------*/
+
+    /*-----------------Section 1--------------------------*/
+
+    #about_section_wrapper1 {
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1fr);
+        grid-gap: 10px 10px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .grid_about1 {}
+
+    .grid_about2 {}
+
+
+
+    /*-----------------Footer--------------------------*/
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 0;
+        justify-content: space-around;
+        text-align: center;
+        background: rgb(255, 250, 243);
+        background: linear-gradient(0deg, rgba(255, 250, 243, 1) 62%, rgba(156, 197, 161, 0) 100%);
+        padding: 40px 0px;
+        color: #292929;
+    }
+}

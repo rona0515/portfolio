@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3vw
+}
+
+h3 {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+p {
+    color: #3c3c3c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+body {
+    margin: 0;
+    background-color: #FFFAF3;
+}
+
+/*-----------------Desktop--------------------------*/
+
+@media only screen and (min-width: 600px) {
+
+    /*-----------------Nav Bar--------------------------*/
+
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.1vw;
+        width: 100%;
+        z-index: 1;
+
+    }
+
+    .navbar a {
+        float: left;
+        text-align: center;
+        color: #FFFAF3;
+        text-decoration: none;
+        padding: 0.5vw 3.5vw;
+        margin: 1.1vw;
+        align-content: space-around;
+    }
+
+    .navbar a:hover {
+        background-color: #FFFAF3;
+        color: #292929;
+        opacity: 85%;
+        border-radius: 3vw;
+
+    }
+
+    .navbar a:active {
+        background-color: #12664F;
+        color: #FFFAF3;
+    }
+
+
+    /*-----------------UX--------------------------*/
+
+
+    /*-----------------Section 1--------------------------*/
+
+    #ux_section_wrapper1 {
+        border: 2px solid red;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .ux_splash {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vw;
+        width: 90%;
+        height: 45vw;
+        overflow: hidden;
+        opacity: 0.4;
+        object-fit: cover;
+
+    }
+
+    .ux_text {
+        position: absolute;
+        text-align: center;
+        top: 27vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        background-color: #FFFAF3;
+        padding: 10px 20px;
+        border-radius: 2vw;
+    }
+
+    /*-----------------Section 2--------------------------*/
+
+    #ux_section_wrapper2 {
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+        padding: 5vw 5vw;
+    }
+
+    .ux_item_2_1 {
+        background: skyblue;
+        border: 2px solid yellow;
+        grid-row: 1/3;
+
+    }
+
+    .ux_item_2_2 {
+        background: skyblue;
+        border: 2px solid yellow;
+    }
+
+    .ux_item_2_2 p {
+        text-align: left;
+        padding: 1vw;
+    }
+
+    .ux_item_2_3 {
+        background: skyblue;
+        border: 2px solid yellow;
+    }
+
+    .ux_item_2_3 p {
+        text-align: left;
+        padding: 1vw;
+    }
+
+    /*-----------------Section 3--------------------------*/
+    #ux_section_wrapper3 {
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+        padding: 5vw 5vw;
+    }
+
+    .ux_item_3_1 {
+        background: skyblue;
+        border: 2px solid yellow;
+    }
+
+    .ux_item_3_1 p {
+        text-align: left;
+        padding: 1vw;
+    }
+
+    .ux_item_3_2 {
+        background: skyblue;
+        border: 2px solid yellow;
+    }
+
+    .ux_item_3_2 p {
+        text-align: left;
+        padding: 1vw;
+    }
+
+    .ux_item_3_3 {
+        background: skyblue;
+        border: 2px solid yellow;
+        grid-column: 2/4;
+        grid-row: 1/4;
+
+    }
+
+
+    /*-----------------Section 4--------------------------*/
+
+    #ux_section_wrapper4 {
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+        padding: 5vw 5vw;
+    }
+
+    .ux_item_4_1 {
+        background: skyblue;
+        border: 2px solid yellow;
+        grid-row: 1/3;
+    }
+
+    .ux_item_4_2 {
+        background: skyblue;
+        border: 2px solid yellow;
+    }
+
+    .ux_item_4_2 p {
+        text-align: left;
+        padding: 1vw;
+    }
+
+    .ux_item_4_3 {
+        background: skyblue;
+        border: 2px solid yellow;
+    }
+
+    .ux_item_4_3 p {
+        text-align: left;
+        padding: 1vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*-----------------Footer--------------------------*/
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 0;
+        justify-content: space-around;
+        text-align: center;
+        background: rgb(255, 250, 243);
+        background: linear-gradient(0deg, rgba(255, 250, 243, 1) 62%, rgba(156, 197, 161, 0) 100%);
+        padding: 40px 0px;
+        color: #292929;
+    }
+}

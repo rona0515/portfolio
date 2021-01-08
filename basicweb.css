@@ -133,6 +133,11 @@ body {
         grid-row: 1/3;
     }
 
+    .basicweb_item_2_1 img {
+        width: 95%;
+    }
+
+
     .basicweb_item_2_2 {
         background: skyblue;
         border: 2px solid yellow;
@@ -192,6 +197,15 @@ body {
 
     }
 
+    .basicweb_item_3_3 img {
+        width: 95%;
+
+    }
+
+    .basicweb_item_3_3 #creative {
+        width: 45%;
+
+    }
 
     /*-----------------Section 4--------------------------*/
 
@@ -211,9 +225,18 @@ body {
         grid-row: 1/3;
     }
 
+    .basicweb_item_4_1 img {
+        width: 50%;
+    }
+
+    .basicweb_item_4_1 #styletile {
+        width: 75%
+    }
+
     .basicweb_item_4_2 {
         background: skyblue;
         border: 2px solid yellow;
+
     }
 
     .basicweb_item_4_2 p {
@@ -231,7 +254,41 @@ body {
         padding: 1vw;
     }
 
+    /*-----------------Section 5--------------------------*/
 
+    #basicweb_section_wrapper5 {
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        padding: 5vw 5vw;
+    }
+
+    .basicweb_item_5_1 {
+        border: 2px solid red;
+        background: skyblue;
+
+    }
+
+    .basicweb_item_5_2 {
+        border: 2px solid red;
+        background: skyblue;
+
+    }
+
+    .basicweb_item_5_3 {
+        border: 2px solid red;
+        background: skyblue;
+
+    }
+
+    .basicweb_item_5_4 {
+        border: 2px solid red;
+        background: skyblue;
+
+    }
 
 
 
